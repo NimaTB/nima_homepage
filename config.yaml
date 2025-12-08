@@ -26,10 +26,10 @@ params:
   ShowCodeCopyButtons: true
   disableScrollToTop: false
 
-  # Custom CSS – served from /css/blank.css
+  # Custom CSS – IMPORTANT: no leading slash, no "static/"
   assets:
     customCSS:
-      - "/css/blank.css"   # <-- IMPORTANT: root-relative, no "static/"
+      - "css/extended/blank.css"
 
   math: true
 
