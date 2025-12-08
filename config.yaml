@@ -8,7 +8,7 @@ publishDir: "public"
 markup:
   goldmark:
     renderer:
-      unsafe: true        # allow raw HTML in content
+      unsafe: true
     extensions:
       typographer: false
 
@@ -18,7 +18,7 @@ params:
   env: production
 
   # Theme + appearance
-  defaultTheme: auto
+  defaultTheme: dark          # make it dark by default (you can switch back to auto later)
   disableThemeToggle: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
@@ -26,10 +26,11 @@ params:
   ShowCodeCopyButtons: true
   disableScrollToTop: false
 
-  # Tell PaperMod to load your custom CSS from assets/css/extended/blank.css
+  # IMPORTANT: custom CSS – served from /static/css/blank.css
   assets:
+    disableFingerprinting: true
     customCSS:
-      - css/extended/blank.css
+      - /css/blank.css        # <-- ABSOLUTE path, not relative
 
   math: true
 
