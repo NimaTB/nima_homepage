@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Control on Nima T. Bazargani</title>
-    <link>https://monumental-choux-e78074.netlify.app/tags/control/</link>
+    <link>http://localhost:1313/tags/control/</link>
     <description>Recent content in Control on Nima T. Bazargani</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://monumental-choux-e78074.netlify.app/tags/control/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/control/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Source Localization in Linear Dynamical Systems</title>
-      <link>https://monumental-choux-e78074.netlify.app/projects/project-2/</link>
+      <link>http://localhost:1313/projects/project-2/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/projects/project-2/</guid>
+      <guid>http://localhost:1313/projects/project-2/</guid>
       <description>&lt;p&gt;This project studies the problem of &lt;strong&gt;localizing unknown disturbance sources&lt;/strong&gt; in large linear dynamical systems using limited measurements. The work is motivated by oscillatory events, faults, and cyber-physical anomalies in power grids.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;ul&gt;
@@ -38,9 +38,9 @@
     </item>
     <item>
       <title>Virtual Synchronous Generator for Frequency Response and Power Damping</title>
-      <link>https://monumental-choux-e78074.netlify.app/projects/project-7/</link>
+      <link>http://localhost:1313/projects/project-7/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/projects/project-7/</guid>
+      <guid>http://localhost:1313/projects/project-7/</guid>
       <description>&lt;p&gt;This project applies &lt;strong&gt;adaptive sliding-mode control&lt;/strong&gt; to virtual synchronous generators (VSGs) to improve microgrid frequency response and damping.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;ul&gt;

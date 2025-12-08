@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Event Identification on Nima T. Bazargani</title>
-    <link>https://monumental-choux-e78074.netlify.app/tags/event-identification/</link>
+    <link>http://localhost:1313/tags/event-identification/</link>
     <description>Recent content in Event Identification on Nima T. Bazargani</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://monumental-choux-e78074.netlify.app/tags/event-identification/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/event-identification/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Semi-Supervised Event Identification for Power Systems</title>
-      <link>https://monumental-choux-e78074.netlify.app/projects/project-1/</link>
+      <link>http://localhost:1313/projects/project-1/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/projects/project-1/</guid>
+      <guid>http://localhost:1313/projects/project-1/</guid>
       <description>&lt;div style=&#34;width:100%; display:flex; justify-content:center; margin:1.2rem 0;&#34;&gt;
-  &lt;img src=&#34;https://monumental-choux-e78074.netlify.app/images/ss3.png&#34;
+  &lt;img src=&#34;http://localhost:1313/images/ss3.png&#34;
        alt=&#34;Global network visualization&#34;
        style=&#34;width:400px; max-width:100%; border-radius:8px;&#34;&gt;
 &lt;/div&gt;
@@ -43,11 +43,11 @@
     </item>
     <item>
       <title>Event Identification via Modal &amp; Spectral Analysis of PMU Data</title>
-      <link>https://monumental-choux-e78074.netlify.app/projects/project-3/</link>
+      <link>http://localhost:1313/projects/project-3/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/projects/project-3/</guid>
+      <guid>http://localhost:1313/projects/project-3/</guid>
       <description>&lt;div style=&#34;width:100%; display:flex; justify-content:center; margin:1.2rem 0;&#34;&gt;
-  &lt;img src=&#34;https://monumental-choux-e78074.netlify.app/images/ss_n2p.png&#34;
+  &lt;img src=&#34;http://localhost:1313/images/ss_n2p.png&#34;
        alt=&#34;Global network visualization&#34;
        style=&#34;width:400px; max-width:100%; border-radius:8px;&#34;&gt;
 &lt;/div&gt;
@@ -77,9 +77,9 @@
     </item>
     <item>
       <title>Event Identification Framework Based on PMU Modal Analysis</title>
-      <link>https://monumental-choux-e78074.netlify.app/projects/project-5/</link>
+      <link>http://localhost:1313/projects/project-5/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/projects/project-5/</guid>
+      <guid>http://localhost:1313/projects/project-5/</guid>
       <description>&lt;p&gt;A poster contribution demonstrating the use of &lt;strong&gt;modal analysis&lt;/strong&gt; and &lt;strong&gt;spectral PMU features&lt;/strong&gt; for disturbance detection and classification.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;p&gt;Wide-area events leave modal signatures that are not captured by traditional SCADA indicators.&lt;/p&gt;
