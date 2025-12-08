@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/nima_t_bazargani/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=nima_t_bazargani/livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Forced Oscillation Localization via Complex-LASSO | Nima T. Bazargani</title>
+<meta name="keywords" content="forced oscillations, complex LASSO, PMU, oscillation analysis">
+<meta name="description" content="This project develops a Complex-LASSO framework for identifying the sources of forced oscillations (FOs) in wide-area power systems.
+▣ Problem
+
+Forced oscillations degrade stability and can spread across large systems
+Source location is often unknown and difficult to estimate
+PMU measurements are noisy and distributed
+
+▣ Approach
+
+Represent unknown FO inputs as sums of sinusoids in the frequency domain
+Estimate candidate frequencies via empirical spectrum analysis
+Formulate and solve a complex-valued ℓ₁-regularized least-squares problem
+Use coordinate descent for efficient optimization
+
+▣ Validation
+
+IEEE 68-bus and WECC 179-bus systems
+Correctly identifies FO locations and amplitudes
+Scalable to multiple sources and noisy measurements
+
+▣ Publication
+IEEE PES General Meeting (2022):
+https://ieeexplore.ieee.org/document/9916993">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/nima_t_bazargani/projects/project-4/">
+<link crossorigin="anonymous" href="/nima_t_bazargani/assets/css/stylesheet.07f8b3c250b5cfeac58d59d1e2dd5e7431a0697f5d0ce5672ddb068a2d06ef76.css" integrity="sha256-B/izwlC1z&#43;rFjVnR4t1edDGgaX9dDOVnLdsGii0G73Y=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/nima_t_bazargani/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/nima_t_bazargani/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/nima_t_bazargani/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/nima_t_bazargani/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/nima_t_bazargani/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/nima_t_bazargani/projects/project-4/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+        @media (prefers-color-scheme: light) {
+            .list::-webkit-scrollbar-thumb {
+                border-color: var(--code-bg);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script><meta property="og:url" content="http://localhost:1313/nima_t_bazargani/projects/project-4/">
+  <meta property="og:site_name" content="Nima T. Bazargani">
+  <meta property="og:title" content="Forced Oscillation Localization via Complex-LASSO">
+  <meta property="og:description" content="This project develops a Complex-LASSO framework for identifying the sources of forced oscillations (FOs) in wide-area power systems.
+▣ Problem Forced oscillations degrade stability and can spread across large systems Source location is often unknown and difficult to estimate PMU measurements are noisy and distributed ▣ Approach Represent unknown FO inputs as sums of sinusoids in the frequency domain Estimate candidate frequencies via empirical spectrum analysis Formulate and solve a complex-valued ℓ₁-regularized least-squares problem Use coordinate descent for efficient optimization ▣ Validation IEEE 68-bus and WECC 179-bus systems Correctly identifies FO locations and amplitudes Scalable to multiple sources and noisy measurements ▣ Publication IEEE PES General Meeting (2022):
+https://ieeexplore.ieee.org/document/9916993">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="projects">
+    <meta property="article:published_time" content="2022-07-01T00:00:00+00:00">
+    <meta property="article:modified_time" content="2022-07-01T00:00:00+00:00">
+    <meta property="article:tag" content="Forced Oscillations">
+    <meta property="article:tag" content="Complex LASSO">
+    <meta property="article:tag" content="PMU">
+    <meta property="article:tag" content="Oscillation Analysis">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Forced Oscillation Localization via Complex-LASSO">
+<meta name="twitter:description" content="This project develops a Complex-LASSO framework for identifying the sources of forced oscillations (FOs) in wide-area power systems.
+▣ Problem
+
+Forced oscillations degrade stability and can spread across large systems
+Source location is often unknown and difficult to estimate
+PMU measurements are noisy and distributed
+
+▣ Approach
+
+Represent unknown FO inputs as sums of sinusoids in the frequency domain
+Estimate candidate frequencies via empirical spectrum analysis
+Formulate and solve a complex-valued ℓ₁-regularized least-squares problem
+Use coordinate descent for efficient optimization
+
+▣ Validation
+
+IEEE 68-bus and WECC 179-bus systems
+Correctly identifies FO locations and amplitudes
+Scalable to multiple sources and noisy measurements
+
+▣ Publication
+IEEE PES General Meeting (2022):
+https://ieeexplore.ieee.org/document/9916993">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Projects",
+      "item": "http://localhost:1313/nima_t_bazargani/projects/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Forced Oscillation Localization via Complex-LASSO",
+      "item": "http://localhost:1313/nima_t_bazargani/projects/project-4/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Forced Oscillation Localization via Complex-LASSO",
+  "name": "Forced Oscillation Localization via Complex-LASSO",
+  "description": "This project develops a Complex-LASSO framework for identifying the sources of forced oscillations (FOs) in wide-area power systems.\n▣ Problem Forced oscillations degrade stability and can spread across large systems Source location is often unknown and difficult to estimate PMU measurements are noisy and distributed ▣ Approach Represent unknown FO inputs as sums of sinusoids in the frequency domain Estimate candidate frequencies via empirical spectrum analysis Formulate and solve a complex-valued ℓ₁-regularized least-squares problem Use coordinate descent for efficient optimization ▣ Validation IEEE 68-bus and WECC 179-bus systems Correctly identifies FO locations and amplitudes Scalable to multiple sources and noisy measurements ▣ Publication IEEE PES General Meeting (2022):\nhttps://ieeexplore.ieee.org/document/9916993\n",
+  "keywords": [
+    "forced oscillations", "complex LASSO", "PMU", "oscillation analysis"
+  ],
+  "articleBody": "This project develops a Complex-LASSO framework for identifying the sources of forced oscillations (FOs) in wide-area power systems.\n▣ Problem Forced oscillations degrade stability and can spread across large systems Source location is often unknown and difficult to estimate PMU measurements are noisy and distributed ▣ Approach Represent unknown FO inputs as sums of sinusoids in the frequency domain Estimate candidate frequencies via empirical spectrum analysis Formulate and solve a complex-valued ℓ₁-regularized least-squares problem Use coordinate descent for efficient optimization ▣ Validation IEEE 68-bus and WECC 179-bus systems Correctly identifies FO locations and amplitudes Scalable to multiple sources and noisy measurements ▣ Publication IEEE PES General Meeting (2022):\nhttps://ieeexplore.ieee.org/document/9916993\n",
+  "wordCount" : "109",
+  "inLanguage": "en",
+  "datePublished": "2022-07-01T00:00:00Z",
+  "dateModified": "2022-07-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "http://localhost:1313/nima_t_bazargani/projects/project-4/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nima T. Bazargani",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://localhost:1313/nima_t_bazargani/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:1313/nima_t_bazargani/" accesskey="h" title="Nima T. Bazargani (Alt + H)">Nima T. Bazargani</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:1313/nima_t_bazargani/about/" title="about">
+                    <span>about</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/nima_t_bazargani/research/" title="research">
+                    <span>research</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/nima_t_bazargani/projects/" title="projects">
+                    <span>projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/nima_t_bazargani/posts/" title="blog">
+                    <span>blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/nima_t_bazargani/cv/" title="cv">
+                    <span>cv</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/nima_t_bazargani/contact/" title="contact">
+                    <span>contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:1313/nima_t_bazargani/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/nima_t_bazargani/projects/">Projects</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Forced Oscillation Localization via Complex-LASSO
+    </h1>
+    <div class="post-meta"><span title='2022-07-01 00:00:00 +0000 UTC'>July 1, 2022</span>&nbsp;·&nbsp;<span>1 min</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>This project develops a <strong>Complex-LASSO framework</strong> for identifying the sources of forced oscillations (FOs) in wide-area power systems.</p>
+<h2 id="-problem">▣ Problem<a hidden class="anchor" aria-hidden="true" href="#-problem">#</a></h2>
+<ul>
+<li>Forced oscillations degrade stability and can spread across large systems</li>
+<li>Source location is often unknown and difficult to estimate</li>
+<li>PMU measurements are noisy and distributed</li>
+</ul>
+<h2 id="-approach">▣ Approach<a hidden class="anchor" aria-hidden="true" href="#-approach">#</a></h2>
+<ul>
+<li>Represent unknown FO inputs as sums of sinusoids in the frequency domain</li>
+<li>Estimate candidate frequencies via empirical spectrum analysis</li>
+<li>Formulate and solve a <strong>complex-valued ℓ₁-regularized</strong> least-squares problem</li>
+<li>Use coordinate descent for efficient optimization</li>
+</ul>
+<h2 id="-validation">▣ Validation<a hidden class="anchor" aria-hidden="true" href="#-validation">#</a></h2>
+<ul>
+<li>IEEE 68-bus and WECC 179-bus systems</li>
+<li>Correctly identifies FO locations and amplitudes</li>
+<li>Scalable to multiple sources and noisy measurements</li>
+</ul>
+<h2 id="-publication">▣ Publication<a hidden class="anchor" aria-hidden="true" href="#-publication">#</a></h2>
+<p><strong>IEEE PES General Meeting (2022):</strong><br>
+<a href="https://ieeexplore.ieee.org/document/9916993">https://ieeexplore.ieee.org/document/9916993</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/nima_t_bazargani/tags/forced-oscillations/">Forced Oscillations</a></li>
+      <li><a href="http://localhost:1313/nima_t_bazargani/tags/complex-lasso/">Complex LASSO</a></li>
+      <li><a href="http://localhost:1313/nima_t_bazargani/tags/pmu/">PMU</a></li>
+      <li><a href="http://localhost:1313/nima_t_bazargani/tags/oscillation-analysis/">Oscillation Analysis</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:1313/nima_t_bazargani/">Nima T. Bazargani</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+<div class="corner-logo">
+  <img src="/nima_t_bazargani/images/NT.png" alt="Site logo">
+</div>
+
+
+
+
+
+
+</html>

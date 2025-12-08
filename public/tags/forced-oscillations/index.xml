@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Forced Oscillations on Nima T. Bazargani</title>
+    <link>https://monumental-choux-e78074.netlify.app/tags/forced-oscillations/</link>
+    <description>Recent content in Forced Oscillations on Nima T. Bazargani</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://monumental-choux-e78074.netlify.app/tags/forced-oscillations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Forced Oscillation Localization via Complex-LASSO</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-4/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-4/</guid>
+      <description>&lt;p&gt;This project develops a &lt;strong&gt;Complex-LASSO framework&lt;/strong&gt; for identifying the sources of forced oscillations (FOs) in wide-area power systems.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Forced oscillations degrade stability and can spread across large systems&lt;/li&gt;
+&lt;li&gt;Source location is often unknown and difficult to estimate&lt;/li&gt;
+&lt;li&gt;PMU measurements are noisy and distributed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Represent unknown FO inputs as sums of sinusoids in the frequency domain&lt;/li&gt;
+&lt;li&gt;Estimate candidate frequencies via empirical spectrum analysis&lt;/li&gt;
+&lt;li&gt;Formulate and solve a &lt;strong&gt;complex-valued ℓ₁-regularized&lt;/strong&gt; least-squares problem&lt;/li&gt;
+&lt;li&gt;Use coordinate descent for efficient optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IEEE 68-bus and WECC 179-bus systems&lt;/li&gt;
+&lt;li&gt;Correctly identifies FO locations and amplitudes&lt;/li&gt;
+&lt;li&gt;Scalable to multiple sources and noisy measurements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE PES General Meeting (2022):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9916993&#34;&gt;https://ieeexplore.ieee.org/document/9916993&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

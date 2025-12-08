@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Semi-Supervised Learning on Nima T. Bazargani</title>
+    <link>http://localhost:1313/nima_t_bazargani/tags/semi-supervised-learning/</link>
+    <description>Recent content in Semi-Supervised Learning on Nima T. Bazargani</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/nima_t_bazargani/tags/semi-supervised-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Semi-Supervised Event Identification for Power Systems</title>
+      <link>http://localhost:1313/nima_t_bazargani/projects/project-1/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/nima_t_bazargani/projects/project-1/</guid>
+      <description>&lt;div style=&#34;width:100%; display:flex; justify-content:center; margin:1.2rem 0;&#34;&gt;
+  &lt;img src=&#34;http://localhost:1313/nima_t_bazargani/images/ss3.png&#34;
+       alt=&#34;Global network visualization&#34;
+       style=&#34;width:400px; max-width:100%; border-radius:8px;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;This project introduces a &lt;strong&gt;semi-supervised learning framework&lt;/strong&gt; for classifying disturbance events using high-dimensional PMU data when labels are sparse. Real power-system PMU archives contain thousands of unlabeled snapshots and only a limited number of trusted labeled events.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PMU archives contain &lt;strong&gt;very limited labeled data&lt;/strong&gt;, making supervised training unreliable&lt;/li&gt;
+&lt;li&gt;Grid conditions shift across time, seasons, and topology changes&lt;/li&gt;
+&lt;li&gt;Physics-based features alone cannot fully capture dynamic variability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Combine &lt;strong&gt;spectral/modal signatures&lt;/strong&gt; with &lt;strong&gt;learned temporal embeddings&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Apply &lt;strong&gt;self-training&lt;/strong&gt;, &lt;strong&gt;pseudo-label refinement&lt;/strong&gt;, and &lt;strong&gt;consistency constraints&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Leverage small labeled sets to guide structure in large unlabeled PMU corpora&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Strong generalization under low-label regimes&lt;/li&gt;
+&lt;li&gt;Robust identification across multiple utilities and operating conditions&lt;/li&gt;
+&lt;li&gt;Outperforms traditional supervised PMU classifiers in label-scarce settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;arXiv preprint (2024):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2309.10095&#34;&gt;https://arxiv.org/abs/2309.10095&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

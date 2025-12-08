@@ -1,0 +1,67 @@
+baseURL: "https://monumental-choux-e78074.netlify.app/"
+languageCode: "en-us"
+title: "Nima T. Bazargani"
+theme: "PaperMod"
+
+publishDir: "public"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      typographer: false
+
+mathEngine: "katex"
+
+params:
+  env: production
+
+  # Theme + appearance
+  defaultTheme: auto
+  disableThemeToggle: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowShareButtons: false
+  ShowCodeCopyButtons: true
+  disableScrollToTop: false
+
+  # IMPORTANT: tell PaperMod to load your custom CSS
+  assets:
+    customCSS:
+      - css/extended/blank.css  # <-- we will place blank.css here
+
+  math: true
+
+  profileMode:
+    enabled: false
+
+  homeInfoParams:
+    Title: ""
+    Content: ""
+
+menu:
+  main:
+    - name: about
+      url: /about/
+      weight: 1
+
+    - name: research
+      url: /research/
+      weight: 2
+
+    - name: projects
+      url: /projects/
+      weight: 3
+
+    - name: blog
+      url: /posts/
+      weight: 4
+
+    - name: cv
+      url: /cv/
+      weight: 5
+
+    - name: contact
+      url: /contact/
+      weight: 6

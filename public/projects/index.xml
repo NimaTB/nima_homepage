@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Nima T. Bazargani</title>
+    <link>https://monumental-choux-e78074.netlify.app/projects/</link>
+    <description>Recent content in Projects on Nima T. Bazargani</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://monumental-choux-e78074.netlify.app/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Semi-Supervised Event Identification for Power Systems</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-1/</link>
+      <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-1/</guid>
+      <description>&lt;div style=&#34;width:100%; display:flex; justify-content:center; margin:1.2rem 0;&#34;&gt;
+  &lt;img src=&#34;https://monumental-choux-e78074.netlify.app/images/ss3.png&#34;
+       alt=&#34;Global network visualization&#34;
+       style=&#34;width:400px; max-width:100%; border-radius:8px;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;This project introduces a &lt;strong&gt;semi-supervised learning framework&lt;/strong&gt; for classifying disturbance events using high-dimensional PMU data when labels are sparse. Real power-system PMU archives contain thousands of unlabeled snapshots and only a limited number of trusted labeled events.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PMU archives contain &lt;strong&gt;very limited labeled data&lt;/strong&gt;, making supervised training unreliable&lt;/li&gt;
+&lt;li&gt;Grid conditions shift across time, seasons, and topology changes&lt;/li&gt;
+&lt;li&gt;Physics-based features alone cannot fully capture dynamic variability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Combine &lt;strong&gt;spectral/modal signatures&lt;/strong&gt; with &lt;strong&gt;learned temporal embeddings&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Apply &lt;strong&gt;self-training&lt;/strong&gt;, &lt;strong&gt;pseudo-label refinement&lt;/strong&gt;, and &lt;strong&gt;consistency constraints&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Leverage small labeled sets to guide structure in large unlabeled PMU corpora&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Strong generalization under low-label regimes&lt;/li&gt;
+&lt;li&gt;Robust identification across multiple utilities and operating conditions&lt;/li&gt;
+&lt;li&gt;Outperforms traditional supervised PMU classifiers in label-scarce settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;arXiv preprint (2024):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://arxiv.org/abs/2309.10095&#34;&gt;https://arxiv.org/abs/2309.10095&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Source Localization in Linear Dynamical Systems</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-2/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-2/</guid>
+      <description>&lt;p&gt;This project studies the problem of &lt;strong&gt;localizing unknown disturbance sources&lt;/strong&gt; in large linear dynamical systems using limited measurements. The work is motivated by oscillatory events, faults, and cyber-physical anomalies in power grids.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Disturbance inputs propagate through network dynamics&lt;/li&gt;
+&lt;li&gt;Only partial measurements of the system state are available&lt;/li&gt;
+&lt;li&gt;Need to infer &lt;strong&gt;where&lt;/strong&gt; the excitation originated without full model knowledge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply &lt;strong&gt;subspace system identification&lt;/strong&gt; to recover reduced-order dynamics&lt;/li&gt;
+&lt;li&gt;Formulate a &lt;strong&gt;source localization estimator&lt;/strong&gt; using Markov parameters&lt;/li&gt;
+&lt;li&gt;Use structured propagation patterns to recover the most probable source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Demonstrated on synthetic linear networks and benchmark system models&lt;/li&gt;
+&lt;li&gt;Accurate localization under noise, limited sensors, and model uncertainty&lt;/li&gt;
+&lt;li&gt;Applicable to oscillation events and cyber-physical anomalies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE CCTA 2023:&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/10252510&#34;&gt;https://ieeexplore.ieee.org/document/10252510&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Event Identification via Modal &amp; Spectral Analysis of PMU Data</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-3/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-3/</guid>
+      <description>&lt;div style=&#34;width:100%; display:flex; justify-content:center; margin:1.2rem 0;&#34;&gt;
+  &lt;img src=&#34;https://monumental-choux-e78074.netlify.app/images/ss_n2p.png&#34;
+       alt=&#34;Global network visualization&#34;
+       style=&#34;width:400px; max-width:100%; border-radius:8px;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;This project develops a &lt;strong&gt;real-time event identification framework&lt;/strong&gt; using modal and spectral features extracted from wide-area PMU streams.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PMUs produce extremely high-dimensional, high-rate data&lt;/li&gt;
+&lt;li&gt;Operators need rapid recognition of line trips, generator outages, and oscillations&lt;/li&gt;
+&lt;li&gt;SCADA-level alarms do not capture modal characteristics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract &lt;strong&gt;modal features&lt;/strong&gt; (frequency, damping, mode shapes)&lt;/li&gt;
+&lt;li&gt;Build a high-dimensional &lt;strong&gt;spectral–temporal representation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Apply feature selection (LASSO, MI ranking)&lt;/li&gt;
+&lt;li&gt;Train logistic regression and SVM classifiers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Texas 2000-bus synthetic grid&lt;/li&gt;
+&lt;li&gt;Real utility dataset with ≈500 PMUs&lt;/li&gt;
+&lt;li&gt;Strong accuracy and robustness across conditions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE Transactions on Power Systems (2022):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9911774&#34;&gt;https://ieeexplore.ieee.org/document/9911774&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Forced Oscillation Localization via Complex-LASSO</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-4/</link>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-4/</guid>
+      <description>&lt;p&gt;This project develops a &lt;strong&gt;Complex-LASSO framework&lt;/strong&gt; for identifying the sources of forced oscillations (FOs) in wide-area power systems.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Forced oscillations degrade stability and can spread across large systems&lt;/li&gt;
+&lt;li&gt;Source location is often unknown and difficult to estimate&lt;/li&gt;
+&lt;li&gt;PMU measurements are noisy and distributed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Represent unknown FO inputs as sums of sinusoids in the frequency domain&lt;/li&gt;
+&lt;li&gt;Estimate candidate frequencies via empirical spectrum analysis&lt;/li&gt;
+&lt;li&gt;Formulate and solve a &lt;strong&gt;complex-valued ℓ₁-regularized&lt;/strong&gt; least-squares problem&lt;/li&gt;
+&lt;li&gt;Use coordinate descent for efficient optimization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IEEE 68-bus and WECC 179-bus systems&lt;/li&gt;
+&lt;li&gt;Correctly identifies FO locations and amplitudes&lt;/li&gt;
+&lt;li&gt;Scalable to multiple sources and noisy measurements&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE PES General Meeting (2022):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9916993&#34;&gt;https://ieeexplore.ieee.org/document/9916993&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Event Identification Framework Based on PMU Modal Analysis</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-5/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-5/</guid>
+      <description>&lt;p&gt;A poster contribution demonstrating the use of &lt;strong&gt;modal analysis&lt;/strong&gt; and &lt;strong&gt;spectral PMU features&lt;/strong&gt; for disturbance detection and classification.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;p&gt;Wide-area events leave modal signatures that are not captured by traditional SCADA indicators.&lt;/p&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract modal dynamics from PMU windows&lt;/li&gt;
+&lt;li&gt;Build feature embeddings for event classification&lt;/li&gt;
+&lt;li&gt;Evaluate temporal stability of modal signatures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE PES General Meeting Poster (2021)&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Virtual Synchronous Generator for Frequency Response and Power Damping</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-7/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-7/</guid>
+      <description>&lt;p&gt;This project applies &lt;strong&gt;adaptive sliding-mode control&lt;/strong&gt; to virtual synchronous generators (VSGs) to improve microgrid frequency response and damping.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Converter-dominated microgrids lack physical inertia&lt;/li&gt;
+&lt;li&gt;VSGs emulate synchronous behavior but need robust control&lt;/li&gt;
+&lt;li&gt;Frequency excursions and oscillations persist under disturbances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Design an &lt;strong&gt;adaptive sliding-mode VSG controller&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Enhance frequency response and damping under varying conditions&lt;/li&gt;
+&lt;li&gt;Evaluate robustness against load changes and disturbances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE EPE (2018):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/8559616&#34;&gt;https://ieeexplore.ieee.org/document/8559616&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Probabilistic Resilience Assessment of Distribution Systems</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-6/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-6/</guid>
+      <description>&lt;p&gt;This project develops a &lt;strong&gt;probabilistic resilience assessment framework&lt;/strong&gt; for distribution and microgrid systems under hurricane-induced disruptions.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extreme weather events cause widespread outages&lt;/li&gt;
+&lt;li&gt;Need quantitative metrics for expected resilience and restoration feasibility&lt;/li&gt;
+&lt;li&gt;Load and PV generation uncertainty must be included&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Define a &lt;strong&gt;time-dependent expected resilience metric&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;Point Estimate Method (PEM)&lt;/strong&gt; to propagate uncertainty&lt;/li&gt;
+&lt;li&gt;Compare results against Monte Carlo simulation&lt;/li&gt;
+&lt;li&gt;Apply &lt;strong&gt;graph-theoretic restoration feasibility analysis&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;IEEE 37-node distribution system&lt;/li&gt;
+&lt;li&gt;Comparison of conventional vs. active distribution systems&lt;/li&gt;
+&lt;li&gt;Strong agreement with Monte Carlo, with far lower compute cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE MELECON (2018):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/abstract/document/8379107&#34;&gt;https://ieeexplore.ieee.org/abstract/document/8379107&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Resiliency Evaluation Framework for Radial Distribution Grids</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-8/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-8/</guid>
+      <description>&lt;p&gt;This project develops a general &lt;strong&gt;resilience evaluation framework&lt;/strong&gt; for radial distribution feeders exposed to extreme events.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;p&gt;Distribution networks experience structural vulnerabilities during storms and high-impact low-probability events.&lt;/p&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Model resilience through topology, damage states, and restoration pathways&lt;/li&gt;
+&lt;li&gt;Use graph metrics to quantify accessibility and load-serving potential&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE ICEE (2018):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/8472496&#34;&gt;https://ieeexplore.ieee.org/document/8472496&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Optimal Sizing of Battery Storage and Wind Penetration</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-9/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-9/</guid>
+      <description>&lt;p&gt;This project applies &lt;strong&gt;NSGA-II multi-objective optimization&lt;/strong&gt; to size battery storage and determine wind penetration levels for optimal microgrid performance.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;p&gt;Microgrid planning requires balancing cost, reliability, renewable penetration, and system constraints.&lt;/p&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Formulate a multi-objective optimization problem&lt;/li&gt;
+&lt;li&gt;Use NSGA-II to explore tradeoffs in storage and wind integration&lt;/li&gt;
+&lt;li&gt;Analyze Pareto-front behavior across load and wind scenarios&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE ICEE (2017):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/7985180&#34;&gt;https://ieeexplore.ieee.org/document/7985180&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Source Localization on Nima T. Bazargani</title>
+    <link>https://monumental-choux-e78074.netlify.app/tags/source-localization/</link>
+    <description>Recent content in Source Localization on Nima T. Bazargani</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://monumental-choux-e78074.netlify.app/tags/source-localization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Source Localization in Linear Dynamical Systems</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-2/</link>
+      <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-2/</guid>
+      <description>&lt;p&gt;This project studies the problem of &lt;strong&gt;localizing unknown disturbance sources&lt;/strong&gt; in large linear dynamical systems using limited measurements. The work is motivated by oscillatory events, faults, and cyber-physical anomalies in power grids.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Disturbance inputs propagate through network dynamics&lt;/li&gt;
+&lt;li&gt;Only partial measurements of the system state are available&lt;/li&gt;
+&lt;li&gt;Need to infer &lt;strong&gt;where&lt;/strong&gt; the excitation originated without full model knowledge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Apply &lt;strong&gt;subspace system identification&lt;/strong&gt; to recover reduced-order dynamics&lt;/li&gt;
+&lt;li&gt;Formulate a &lt;strong&gt;source localization estimator&lt;/strong&gt; using Markov parameters&lt;/li&gt;
+&lt;li&gt;Use structured propagation patterns to recover the most probable source&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Demonstrated on synthetic linear networks and benchmark system models&lt;/li&gt;
+&lt;li&gt;Accurate localization under noise, limited sensors, and model uncertainty&lt;/li&gt;
+&lt;li&gt;Applicable to oscillation events and cyber-physical anomalies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE CCTA 2023:&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/10252510&#34;&gt;https://ieeexplore.ieee.org/document/10252510&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
