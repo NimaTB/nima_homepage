@@ -1,10 +1,11 @@
-baseURL: "https://nimahomapage.netlify.app/"
+baseURL: "https://nimahomepage.netlify.app/"
 languageCode: "en-us"
 title: "Nima T. Bazargani"
 theme: "PaperMod"
 
 publishDir: "public"
 
+# IMPORTANT: allow raw HTML in markdown (for your <div class="make_bg ..."> blocks)
 markup:
   goldmark:
     renderer:
@@ -14,11 +15,14 @@ markup:
 
 mathEngine: "katex"
 
+# Optional: make Hugo use absolute URLs based on baseURL
+canonifyURLs: true
+
 params:
   env: production
 
   # Theme + appearance
-  defaultTheme: dark          # make it dark by default (you can switch back to auto later)
+  defaultTheme: dark        # <- force dark
   disableThemeToggle: true
   ShowReadingTime: true
   ShowBreadCrumbs: true
@@ -26,11 +30,10 @@ params:
   ShowCodeCopyButtons: true
   disableScrollToTop: false
 
-  # IMPORTANT: custom CSS – served from /static/css/blank.css
+  # Tell PaperMod to load your custom CSS from /assets
   assets:
-    disableFingerprinting: true
     customCSS:
-      - /css/blank.css        # <-- ABSOLUTE path, not relative
+      - css/extended/blank.css   # corresponds to assets/css/extended/blank.css
 
   math: true
 
