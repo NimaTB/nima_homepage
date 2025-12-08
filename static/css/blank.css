@@ -39,8 +39,16 @@ body {
     color: var(--nb-text);
     font-family: system-ui, -apple-system, BlinkMacSystemFont,
                  "Inter", "Roboto", "Segoe UI", sans-serif;
-    line-height: 1.6;
+    line-height: 2.0;
 }
+
+
+/* Make the main content column wider on desktop */
+.main {
+    max-width: 1180px;   /* was ~900px in PaperMod */
+    margin: 0 auto;
+}
+
 
 /* Let PaperMod content float on dark space */
 .main,
@@ -76,7 +84,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     color: var(--nb-heading);
     letter-spacing: 0.04em;
-    line-height: 1.22;
+    line-height: 1.6;
     font-weight: 700;
 }
 
@@ -93,6 +101,8 @@ h2 {
 p, li, span {
     color: var(--nb-text);
 }
+
+
 
 /* ===========================================================
    2. LINKS & INTERACTIVE ELEMENTS
@@ -175,7 +185,7 @@ h1[style] {
 
     --bg-padding: 2rem 1.6rem;
     --bg-radius: 14px;
-    --bg-min-height: 1000px;
+    --bg-min-height: 580px;
 
     /* ---- container ---- */
     position: relative;

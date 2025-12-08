@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>PES GM on Nima T. Bazargani</title>
-    <link>http://localhost:1313/tags/pes-gm/</link>
+    <link>https://monumental-choux-e78074.netlify.app/tags/pes-gm/</link>
     <description>Recent content in PES GM on Nima T. Bazargani</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/pes-gm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://monumental-choux-e78074.netlify.app/tags/pes-gm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Event Identification Framework Based on PMU Modal Analysis</title>
-      <link>http://localhost:1313/projects/project-5/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-5/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-5/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-5/</guid>
       <description>&lt;p&gt;A poster contribution demonstrating the use of &lt;strong&gt;modal analysis&lt;/strong&gt; and &lt;strong&gt;spectral PMU features&lt;/strong&gt; for disturbance detection and classification.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;p&gt;Wide-area events leave modal signatures that are not captured by traditional SCADA indicators.&lt;/p&gt;

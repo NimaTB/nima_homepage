@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Projects on Nima T. Bazargani</title>
-    <link>http://localhost:1313/projects/</link>
+    <link>https://monumental-choux-e78074.netlify.app/projects/</link>
     <description>Recent content in Projects on Nima T. Bazargani</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://monumental-choux-e78074.netlify.app/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Semi-Supervised Event Identification for Power Systems</title>
-      <link>http://localhost:1313/projects/project-1/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-1/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-1/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-1/</guid>
       <description>&lt;div style=&#34;width:100%; display:flex; justify-content:center; margin:1.2rem 0;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/ss3.png&#34;
+  &lt;img src=&#34;https://monumental-choux-e78074.netlify.app/images/ss3.png&#34;
        alt=&#34;Global network visualization&#34;
        style=&#34;width:400px; max-width:100%; border-radius:8px;&#34;&gt;
 &lt;/div&gt;
@@ -43,9 +43,9 @@
     </item>
     <item>
       <title>Source Localization in Linear Dynamical Systems</title>
-      <link>http://localhost:1313/projects/project-2/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-2/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-2/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-2/</guid>
       <description>&lt;p&gt;This project studies the problem of &lt;strong&gt;localizing unknown disturbance sources&lt;/strong&gt; in large linear dynamical systems using limited measurements. The work is motivated by oscillatory events, faults, and cyber-physical anomalies in power grids.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;ul&gt;
@@ -71,11 +71,11 @@
     </item>
     <item>
       <title>Event Identification via Modal &amp; Spectral Analysis of PMU Data</title>
-      <link>http://localhost:1313/projects/project-3/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-3/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-3/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-3/</guid>
       <description>&lt;div style=&#34;width:100%; display:flex; justify-content:center; margin:1.2rem 0;&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/images/ss_n2p.png&#34;
+  &lt;img src=&#34;https://monumental-choux-e78074.netlify.app/images/ss_n2p.png&#34;
        alt=&#34;Global network visualization&#34;
        style=&#34;width:400px; max-width:100%; border-radius:8px;&#34;&gt;
 &lt;/div&gt;
@@ -105,9 +105,9 @@
     </item>
     <item>
       <title>Forced Oscillation Localization via Complex-LASSO</title>
-      <link>http://localhost:1313/projects/project-4/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-4/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-4/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-4/</guid>
       <description>&lt;p&gt;This project develops a &lt;strong&gt;Complex-LASSO framework&lt;/strong&gt; for identifying the sources of forced oscillations (FOs) in wide-area power systems.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;ul&gt;
@@ -134,9 +134,9 @@
     </item>
     <item>
       <title>Event Identification Framework Based on PMU Modal Analysis</title>
-      <link>http://localhost:1313/projects/project-5/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-5/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-5/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-5/</guid>
       <description>&lt;p&gt;A poster contribution demonstrating the use of &lt;strong&gt;modal analysis&lt;/strong&gt; and &lt;strong&gt;spectral PMU features&lt;/strong&gt; for disturbance detection and classification.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;p&gt;Wide-area events leave modal signatures that are not captured by traditional SCADA indicators.&lt;/p&gt;
@@ -151,9 +151,9 @@
     </item>
     <item>
       <title>Virtual Synchronous Generator for Frequency Response and Power Damping</title>
-      <link>http://localhost:1313/projects/project-7/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-7/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-7/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-7/</guid>
       <description>&lt;p&gt;This project applies &lt;strong&gt;adaptive sliding-mode control&lt;/strong&gt; to virtual synchronous generators (VSGs) to improve microgrid frequency response and damping.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;ul&gt;
@@ -173,9 +173,9 @@
     </item>
     <item>
       <title>Probabilistic Resilience Assessment of Distribution Systems</title>
-      <link>http://localhost:1313/projects/project-6/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-6/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-6/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-6/</guid>
       <description>&lt;p&gt;This project develops a &lt;strong&gt;probabilistic resilience assessment framework&lt;/strong&gt; for distribution and microgrid systems under hurricane-induced disruptions.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;ul&gt;
@@ -202,9 +202,9 @@
     </item>
     <item>
       <title>Resiliency Evaluation Framework for Radial Distribution Grids</title>
-      <link>http://localhost:1313/projects/project-8/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-8/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-8/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-8/</guid>
       <description>&lt;p&gt;This project develops a general &lt;strong&gt;resilience evaluation framework&lt;/strong&gt; for radial distribution feeders exposed to extreme events.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;p&gt;Distribution networks experience structural vulnerabilities during storms and high-impact low-probability events.&lt;/p&gt;
@@ -219,9 +219,9 @@
     </item>
     <item>
       <title>Optimal Sizing of Battery Storage and Wind Penetration</title>
-      <link>http://localhost:1313/projects/project-9/</link>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-9/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/project-9/</guid>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-9/</guid>
       <description>&lt;p&gt;This project applies &lt;strong&gt;NSGA-II multi-objective optimization&lt;/strong&gt; to size battery storage and determine wind penetration levels for optimal microgrid performance.&lt;/p&gt;
 &lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
 &lt;p&gt;Microgrid planning requires balancing cost, reliability, renewable penetration, and system constraints.&lt;/p&gt;

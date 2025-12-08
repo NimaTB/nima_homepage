@@ -26,10 +26,10 @@ params:
   ShowCodeCopyButtons: true
   disableScrollToTop: false
 
-  # IMPORTANT: tell PaperMod to load your custom CSS
+  # Custom CSS – served from /css/blank.css
   assets:
     customCSS:
-      - css/extended/blank.css  # <-- we will place blank.css here
+      - "/css/blank.css"   # <-- IMPORTANT: root-relative, no "static/"
 
   math: true
 
