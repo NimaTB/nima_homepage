@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Machine Learning on Nima T. Bazargani</title>
+    <link>https://monumental-choux-e78074.netlify.app/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Nima T. Bazargani</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://monumental-choux-e78074.netlify.app/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Event Identification via Modal &amp; Spectral Analysis of PMU Data</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-3/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-3/</guid>
+      <description>&lt;div style=&#34;width:100%; display:flex; justify-content:center; margin:1.2rem 0;&#34;&gt;
+  &lt;img src=&#34;https://monumental-choux-e78074.netlify.app/images/ss_n2p.png&#34;
+       alt=&#34;Global network visualization&#34;
+       style=&#34;width:400px; max-width:100%; border-radius:8px;&#34;&gt;
+&lt;/div&gt;
+&lt;p&gt;This project develops a &lt;strong&gt;real-time event identification framework&lt;/strong&gt; using modal and spectral features extracted from wide-area PMU streams.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;PMUs produce extremely high-dimensional, high-rate data&lt;/li&gt;
+&lt;li&gt;Operators need rapid recognition of line trips, generator outages, and oscillations&lt;/li&gt;
+&lt;li&gt;SCADA-level alarms do not capture modal characteristics&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extract &lt;strong&gt;modal features&lt;/strong&gt; (frequency, damping, mode shapes)&lt;/li&gt;
+&lt;li&gt;Build a high-dimensional &lt;strong&gt;spectral–temporal representation&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Apply feature selection (LASSO, MI ranking)&lt;/li&gt;
+&lt;li&gt;Train logistic regression and SVM classifiers&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-validation&#34;&gt;▣ Validation&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Texas 2000-bus synthetic grid&lt;/li&gt;
+&lt;li&gt;Real utility dataset with ≈500 PMUs&lt;/li&gt;
+&lt;li&gt;Strong accuracy and robustness across conditions&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE Transactions on Power Systems (2022):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/9911774&#34;&gt;https://ieeexplore.ieee.org/document/9911774&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

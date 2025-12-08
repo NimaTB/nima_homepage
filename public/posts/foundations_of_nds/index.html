@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Foundations of Networked Dynamical Systems | Nima T. Bazargani</title>
+<meta name="keywords" content="">
+<meta name="description" content="1. Introduction &amp; Background
+From General Systems to Complex Networks
+The modern scientific worldview increasingly treats complex systems as networks of interacting components embedded in an environment. Whether describing power grids, ecosystems, economies, or neural tissue, these systems share a universal structure:
+
+Nodes represent dynamic states; edges represent interactions; and the network exists within a spatial, functional, or semantic environment that constrains and couples its evolution.
+
+This section formalizes the idea of a networked dynamical system (NDS); a graph endowed with both dynamics and spatial structure, and establishes the notation and conservation laws used throughout this book. Before doing so, it is useful to situate this concept within its intellectual lineage, tracing how modern network science grew from earlier efforts to describe feedback, control, and organization in complex systems.">
+<meta name="author" content="">
+<link rel="canonical" href="https://monumental-choux-e78074.netlify.app/posts/foundations_of_nds/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://monumental-choux-e78074.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://monumental-choux-e78074.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://monumental-choux-e78074.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://monumental-choux-e78074.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://monumental-choux-e78074.netlify.app/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://monumental-choux-e78074.netlify.app/posts/foundations_of_nds/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://monumental-choux-e78074.netlify.app/posts/foundations_of_nds/">
+  <meta property="og:site_name" content="Nima T. Bazargani">
+  <meta property="og:title" content="Foundations of Networked Dynamical Systems">
+  <meta property="og:description" content="1. Introduction &amp; Background From General Systems to Complex Networks The modern scientific worldview increasingly treats complex systems as networks of interacting components embedded in an environment. Whether describing power grids, ecosystems, economies, or neural tissue, these systems share a universal structure:
+Nodes represent dynamic states; edges represent interactions; and the network exists within a spatial, functional, or semantic environment that constrains and couples its evolution.
+This section formalizes the idea of a networked dynamical system (NDS); a graph endowed with both dynamics and spatial structure, and establishes the notation and conservation laws used throughout this book. Before doing so, it is useful to situate this concept within its intellectual lineage, tracing how modern network science grew from earlier efforts to describe feedback, control, and organization in complex systems.">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Foundations of Networked Dynamical Systems">
+<meta name="twitter:description" content="1. Introduction &amp; Background
+From General Systems to Complex Networks
+The modern scientific worldview increasingly treats complex systems as networks of interacting components embedded in an environment. Whether describing power grids, ecosystems, economies, or neural tissue, these systems share a universal structure:
+
+Nodes represent dynamic states; edges represent interactions; and the network exists within a spatial, functional, or semantic environment that constrains and couples its evolution.
+
+This section formalizes the idea of a networked dynamical system (NDS); a graph endowed with both dynamics and spatial structure, and establishes the notation and conservation laws used throughout this book. Before doing so, it is useful to situate this concept within its intellectual lineage, tracing how modern network science grew from earlier efforts to describe feedback, control, and organization in complex systems.">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Blog",
+      "item": "https://monumental-choux-e78074.netlify.app/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Foundations of Networked Dynamical Systems",
+      "item": "https://monumental-choux-e78074.netlify.app/posts/foundations_of_nds/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Foundations of Networked Dynamical Systems",
+  "name": "Foundations of Networked Dynamical Systems",
+  "description": "1. Introduction \u0026amp; Background From General Systems to Complex Networks The modern scientific worldview increasingly treats complex systems as networks of interacting components embedded in an environment. Whether describing power grids, ecosystems, economies, or neural tissue, these systems share a universal structure:\nNodes represent dynamic states; edges represent interactions; and the network exists within a spatial, functional, or semantic environment that constrains and couples its evolution.\nThis section formalizes the idea of a networked dynamical system (NDS); a graph endowed with both dynamics and spatial structure, and establishes the notation and conservation laws used throughout this book. Before doing so, it is useful to situate this concept within its intellectual lineage, tracing how modern network science grew from earlier efforts to describe feedback, control, and organization in complex systems.\n",
+  "keywords": [
+    
+  ],
+  "articleBody": "1. Introduction \u0026 Background From General Systems to Complex Networks The modern scientific worldview increasingly treats complex systems as networks of interacting components embedded in an environment. Whether describing power grids, ecosystems, economies, or neural tissue, these systems share a universal structure:\nNodes represent dynamic states; edges represent interactions; and the network exists within a spatial, functional, or semantic environment that constrains and couples its evolution.\nThis section formalizes the idea of a networked dynamical system (NDS); a graph endowed with both dynamics and spatial structure, and establishes the notation and conservation laws used throughout this book. Before doing so, it is useful to situate this concept within its intellectual lineage, tracing how modern network science grew from earlier efforts to describe feedback, control, and organization in complex systems.\nHistorical Context and Conceptual Lineage The quest to understand interacting systems dates back to the early twentieth century, when scholars across mathematics, engineering, and biology began developing general principles of regulation and communication. Cybernetics, initiated by Norbert Wiener in the 1940s, provided the first unifying language of feedback and control. In his landmark work Cybernetics: or Control and Communication in the Animal and the Machine (Wiener, 1948), Wiener proposed that organisms and machines could be understood through shared mathematical structures; signals, feedback loops, and control laws that maintain stability and purpose in the presence of noise. This framework inspired foundational research in automatic control, information theory, and communication systems, including Shannon’s mathematical theory of communication (Shannon, 1948) and the early development of adaptive signal processing.\nThe Birth of General System Theory Around the same time, Ludwig von Bertalanffy introduced General System Theory (GST) (von Bertalanffy, 1968), seeking universal laws that transcend disciplinary boundaries. Unlike classical mechanics, which treated systems as closed and decomposable, GST proposed that biological, ecological, and social systems are inherently open; maintaining order through continuous exchange of energy, matter, and information with their surroundings. This insight replaced the static, clockwork metaphor of the 19th century with a dynamic, metabolic model of living systems.\nGST influenced multiple domains; in ecology, Eugene Odum formalized ecosystem energetics through trophic energy flows (Odum, 1969); in psychology, open-system homeostasis informed theories of learning and adaptation; and in engineering, the idea of open adaptive systems provided the conceptual bridge to cyber-physical infrastructures such as power grids and communication networks.\nThermodynamic Foundations of Complexity A few decades later, Ilya Prigogine extended these ideas from biology to physics through his theory of dissipative structures (Prigogine \u0026 Nicolis, 1977; Prigogine \u0026 Stengers, 1984). He demonstrated that order can spontaneously arise in non-equilibrium systems driven by continuous energy dissipation; bridging thermodynamics, chemistry, and self-organization. This shifted the paradigm: equilibrium was no longer synonymous with stability; rather, far-from-equilibrium dynamics became the source of complexity, creativity, and structure.\nIn engineering terms, this insight recast our view of networked infrastructures: electric power grids, reaction-diffusion systems, and ecological webs all maintain coherence by sustaining flux and gradient, not by eliminating them. Prigogine’s work gave scientific legitimacy to the idea that stability is an emergent property of flow, a principle that resonates throughout modern control theory, distributed optimization, and energy system modeling.\nCybernetics and the Observer Around the same period, Heinz von Foerster advanced the field through his development of second-order cybernetics (von Foerster, 1974). Where Wiener’s cybernetics studied control and communication in systems, von Foerster examined control and communication of systems by observers who are themselves embedded in them. He emphasized that observation and cognition are feedback processes; the act of measurement alters the very system being measured.\nThis reflexive viewpoint profoundly influenced cognitive science, artificial intelligence, and adaptive control. Today’s self-learning algorithms, reinforcement-learning agents, and human-in-the-loop systems embody this principle by continuously updating their internal models while shaping the environment through feedback.\nThe Rise of Complexity and Network Science By the late twentieth century, several independent intellectual threads converged into what is now recognized as the science of complexity. Physicists, biologists, and theorists—including Murray Gell-Mann (Gell-Mann, 1994), Stuart Kauffman (Kauffman, 1993), and Albert-László Barabási (Barabási, 2002)—brought mathematical clarity to patterns observed across systems ranging from gene regulation and metabolic networks to the Internet and human societies.\nGell-Mann described complexity as a process of adaptive information compression. Kauffman’s work on Boolean networks and autocatalytic sets revealed mechanisms of self-organization. Barabási’s research showed that many real-world networks exhibit scale-free structure and power-law degree distributions, transforming our understanding of robustness, vulnerability, and influence in large-scale networks.\nInstitutions such as the Santa Fe Institute (Waldrop, 1992) helped formalize this emerging worldview by bringing together researchers across disciplines to study emergence, adaptation, scaling laws, and collective behavior. The outcome was more than a new research field; it was a paradigm shift: a synthesis of dynamical systems, statistical mechanics, information theory, and computation into a unified framework for understanding complex adaptive networks.\nToday, this framework shapes how we interpret electric power grids, social media ecosystems, neural circuits, and global markets. Each is a system of systems: a layered, dynamic network that organizes, adapts, and sometimes fails in ways that reveal deep structural similarities across physical, biological, and social domains.\nReferences Wiener, N. (1948). Cybernetics: or Control and Communication in the Animal and the Machine. MIT Press. https://mitpress.mit.edu/\nShannon, C. (1948). A Mathematical Theory of Communication. Bell System Technical Journal. https://doi.org/10.1002/j.1538-7305.1948.tb00917.x\nvon Bertalanffy, L. (1968). General System Theory. George Braziller. https://www.worldcat.org/title/255493\nOdum, E. (1969). The Strategy of Ecosystem Development. Science. https://doi.org/10.1126/science.164.3877.262\nPrigogine, I., \u0026 Nicolis, G. (1977). Self-Organization in Non-Equilibrium Systems. Wiley. https://www.wiley.com/\nPrigogine, I., \u0026 Stengers, I. (1984). Order Out of Chaos. Bantam. https://www.penguinrandomhouse.com/\nvon Foerster, H. (1974). Cybernetics of Cybernetics. University of Illinois. (no reliable link)\nGell-Mann, M. (1994). The Quark and the Jaguar. W. H. Freeman. https://www.worldcat.org/title/29548329\nKauffman, S. (1993). The Origins of Order. Oxford University Press. https://global.oup.com/\nBarabási, A.-L. (2002). Linked: The New Science of Networks. Perseus Books. https://www.basicbooks.com/\nWaldrop, M. (1992). Complexity: The Emerging Science at the Edge of Order and Chaos. Simon \u0026 Schuster. https://www.simonandschuster.com/\n",
+  "wordCount" : "983",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://monumental-choux-e78074.netlify.app/posts/foundations_of_nds/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Nima T. Bazargani",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://monumental-choux-e78074.netlify.app/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://monumental-choux-e78074.netlify.app/" accesskey="h" title="Nima T. Bazargani (Alt + H)">Nima T. Bazargani</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/about/" title="about">
+                    <span>about</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/research/" title="research">
+                    <span>research</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/projects/" title="projects">
+                    <span>projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/posts/" title="blog">
+                    <span>blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/cv/" title="cv">
+                    <span>cv</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/contact/" title="contact">
+                    <span>contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://monumental-choux-e78074.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="https://monumental-choux-e78074.netlify.app/posts/">Blog</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Foundations of Networked Dynamical Systems
+    </h1>
+    <div class="post-meta"><span>5 min</span>
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#1-introduction--background" aria-label="1. Introduction &amp; Background">1. Introduction &amp; Background</a><ul>
+                        
+                <li>
+                    <a href="#from-general-systems-to-complex-networks" aria-label="From General Systems to Complex Networks">From General Systems to Complex Networks</a></li>
+                <li>
+                    <a href="#historical-context-and-conceptual-lineage" aria-label="Historical Context and Conceptual Lineage">Historical Context and Conceptual Lineage</a></li>
+                <li>
+                    <a href="#the-birth-of-general-system-theory" aria-label="The Birth of General System Theory">The Birth of General System Theory</a></li>
+                <li>
+                    <a href="#thermodynamic-foundations-of-complexity" aria-label="Thermodynamic Foundations of Complexity">Thermodynamic Foundations of Complexity</a></li>
+                <li>
+                    <a href="#cybernetics-and-the-observer" aria-label="Cybernetics and the Observer">Cybernetics and the Observer</a></li>
+                <li>
+                    <a href="#the-rise-of-complexity-and-network-science" aria-label="The Rise of Complexity and Network Science">The Rise of Complexity and Network Science</a></li></ul>
+                </li>
+                <li>
+                    <a href="#references" aria-label="References">References</a><ul>
+                        <ul>
+                        
+                <li>
+                    <a href="#wiener-n-1948-cybernetics-or-control-and-communication-in-the-animal-and-the-machine-mit-press" aria-label="Wiener, N. (1948). Cybernetics: or Control and Communication in the Animal and the Machine. MIT Press.">Wiener, N. (1948). Cybernetics: or Control and Communication in the Animal and the Machine. MIT Press.</a></li>
+                <li>
+                    <a href="#shannon-c-1948-a-mathematical-theory-of-communication-bell-system-technical-journal" aria-label="Shannon, C. (1948). A Mathematical Theory of Communication. Bell System Technical Journal.">Shannon, C. (1948). A Mathematical Theory of Communication. Bell System Technical Journal.</a></li>
+                <li>
+                    <a href="#von-bertalanffy-l-1968-general-system-theory-george-braziller" aria-label="von Bertalanffy, L. (1968). General System Theory. George Braziller.">von Bertalanffy, L. (1968). General System Theory. George Braziller.</a></li>
+                <li>
+                    <a href="#odum-e-1969-the-strategy-of-ecosystem-development-science" aria-label="Odum, E. (1969). The Strategy of Ecosystem Development. Science.">Odum, E. (1969). The Strategy of Ecosystem Development. Science.</a></li>
+                <li>
+                    <a href="#prigogine-i--nicolis-g-1977-self-organization-in-non-equilibrium-systems-wiley" aria-label="Prigogine, I., &amp; Nicolis, G. (1977). Self-Organization in Non-Equilibrium Systems. Wiley.">Prigogine, I., &amp; Nicolis, G. (1977). Self-Organization in Non-Equilibrium Systems. Wiley.</a></li>
+                <li>
+                    <a href="#prigogine-i--stengers-i-1984-order-out-of-chaos-bantam" aria-label="Prigogine, I., &amp; Stengers, I. (1984). Order Out of Chaos. Bantam.">Prigogine, I., &amp; Stengers, I. (1984). Order Out of Chaos. Bantam.</a></li>
+                <li>
+                    <a href="#von-foerster-h-1974-cybernetics-of-cybernetics-university-of-illinois" aria-label="von Foerster, H. (1974). Cybernetics of Cybernetics. University of Illinois.">von Foerster, H. (1974). Cybernetics of Cybernetics. University of Illinois.</a></li>
+                <li>
+                    <a href="#gell-mann-m-1994-the-quark-and-the-jaguar-w-h-freeman" aria-label="Gell-Mann, M. (1994). The Quark and the Jaguar. W. H. Freeman.">Gell-Mann, M. (1994). The Quark and the Jaguar. W. H. Freeman.</a></li>
+                <li>
+                    <a href="#kauffman-s-1993-the-origins-of-order-oxford-university-press" aria-label="Kauffman, S. (1993). The Origins of Order. Oxford University Press.">Kauffman, S. (1993). The Origins of Order. Oxford University Press.</a></li>
+                <li>
+                    <a href="#barab%c3%a1si-a-l-2002-linked-the-new-science-of-networks-perseus-books" aria-label="Barabási, A.-L. (2002). Linked: The New Science of Networks. Perseus Books.">Barabási, A.-L. (2002). Linked: The New Science of Networks. Perseus Books.</a></li>
+                <li>
+                    <a href="#waldrop-m-1992-complexity-the-emerging-science-at-the-edge-of-order-and-chaos-simon--schuster" aria-label="Waldrop, M. (1992). Complexity: The Emerging Science at the Edge of Order and Chaos. Simon &amp; Schuster.">Waldrop, M. (1992). Complexity: The Emerging Science at the Edge of Order and Chaos. Simon &amp; Schuster.</a>
+                </li>
+            </ul>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h1 id="1-introduction--background">1. Introduction &amp; Background<a hidden class="anchor" aria-hidden="true" href="#1-introduction--background">#</a></h1>
+<h2 id="from-general-systems-to-complex-networks">From General Systems to Complex Networks<a hidden class="anchor" aria-hidden="true" href="#from-general-systems-to-complex-networks">#</a></h2>
+<p>The modern scientific worldview increasingly treats complex systems as <em>networks of interacting components embedded in an environment</em>. Whether describing power grids, ecosystems, economies, or neural tissue, these systems share a universal structure:</p>
+<blockquote>
+<p><em>Nodes represent dynamic states; edges represent interactions; and the network exists within a spatial, functional, or semantic environment that constrains and couples its evolution.</em></p>
+</blockquote>
+<p>This section formalizes the idea of a <strong>networked dynamical system (NDS)</strong>; a graph endowed with both dynamics and spatial structure, and establishes the notation and conservation laws used throughout this book. Before doing so, it is useful to situate this concept within its intellectual lineage, tracing how modern network science grew from earlier efforts to describe feedback, control, and organization in complex systems.</p>
+<hr>
+<h2 id="historical-context-and-conceptual-lineage">Historical Context and Conceptual Lineage<a hidden class="anchor" aria-hidden="true" href="#historical-context-and-conceptual-lineage">#</a></h2>
+<p>The quest to understand interacting systems dates back to the early twentieth century, when scholars across mathematics, engineering, and biology began developing general principles of regulation and communication. <strong>Cybernetics</strong>, initiated by Norbert Wiener in the 1940s, provided the first unifying language of feedback and control. In his landmark work <em>Cybernetics: or Control and Communication in the Animal and the Machine</em> (<a href="#wiener1948">Wiener, 1948</a>), Wiener proposed that organisms and machines could be understood through shared mathematical structures; signals, feedback loops, and control laws that maintain stability and purpose in the presence of noise. This framework inspired foundational research in automatic control, information theory, and communication systems, including Shannon’s mathematical theory of communication (<a href="#shannon1948">Shannon, 1948</a>) and the early development of adaptive signal processing.</p>
+<hr>
+<h2 id="the-birth-of-general-system-theory">The Birth of General System Theory<a hidden class="anchor" aria-hidden="true" href="#the-birth-of-general-system-theory">#</a></h2>
+<p>Around the same time, Ludwig von Bertalanffy introduced <strong>General System Theory (GST)</strong> (<a href="#bertalanffy1968">von Bertalanffy, 1968</a>), seeking universal laws that transcend disciplinary boundaries. Unlike classical mechanics, which treated systems as closed and decomposable, GST proposed that <em>biological, ecological, and social systems are inherently open</em>; maintaining order through continuous exchange of energy, matter, and information with their surroundings. This insight replaced the static, clockwork metaphor of the 19th century with a <strong>dynamic, metabolic model</strong> of living systems.</p>
+<p>GST influenced multiple domains; in ecology, Eugene Odum formalized ecosystem energetics through trophic energy flows (<a href="#odum1969">Odum, 1969</a>); in psychology, open-system homeostasis informed theories of learning and adaptation; and in engineering, the idea of <em>open adaptive systems</em> provided the conceptual bridge to cyber-physical infrastructures such as power grids and communication networks.</p>
+<hr>
+<h2 id="thermodynamic-foundations-of-complexity">Thermodynamic Foundations of Complexity<a hidden class="anchor" aria-hidden="true" href="#thermodynamic-foundations-of-complexity">#</a></h2>
+<p>A few decades later, Ilya Prigogine extended these ideas from biology to physics through his theory of <strong>dissipative structures</strong> (<a href="#prigogine1977">Prigogine &amp; Nicolis, 1977</a>; <a href="#prigogine1984">Prigogine &amp; Stengers, 1984</a>). He demonstrated that order can <em>spontaneously arise in non-equilibrium systems</em> driven by continuous energy dissipation; bridging thermodynamics, chemistry, and self-organization. This shifted the paradigm: equilibrium was no longer synonymous with stability; rather, <em>far-from-equilibrium dynamics</em> became the source of complexity, creativity, and structure.</p>
+<p>In engineering terms, this insight recast our view of networked infrastructures: electric power grids, reaction-diffusion systems, and ecological webs all maintain coherence by sustaining flux and gradient, not by eliminating them. Prigogine’s work gave scientific legitimacy to the idea that <strong>stability is an emergent property of flow</strong>, a principle that resonates throughout modern control theory, distributed optimization, and energy system modeling.</p>
+<hr>
+<h2 id="cybernetics-and-the-observer">Cybernetics and the Observer<a hidden class="anchor" aria-hidden="true" href="#cybernetics-and-the-observer">#</a></h2>
+<p>Around the same period, Heinz von Foerster advanced the field through his development of <strong>second-order cybernetics</strong> (<a href="#vonfoerster1974">von Foerster, 1974</a>). Where Wiener’s cybernetics studied control and communication <em>in</em> systems, von Foerster examined control and communication <em>of</em> systems <em>by</em> observers who are themselves embedded in them. He emphasized that observation and cognition are feedback processes; the act of measurement alters the very system being measured.</p>
+<p>This reflexive viewpoint profoundly influenced cognitive science, artificial intelligence, and adaptive control. Today’s <strong>self-learning algorithms</strong>, <strong>reinforcement-learning agents</strong>, and <strong>human-in-the-loop systems</strong> embody this principle by continuously updating their internal models while shaping the environment through feedback.</p>
+<hr>
+<h2 id="the-rise-of-complexity-and-network-science">The Rise of Complexity and Network Science<a hidden class="anchor" aria-hidden="true" href="#the-rise-of-complexity-and-network-science">#</a></h2>
+<p>By the late twentieth century, several independent intellectual threads converged into what is now recognized as the <strong>science of complexity</strong>. Physicists, biologists, and theorists—including Murray Gell-Mann (<a href="#gellmann1994">Gell-Mann, 1994</a>), Stuart Kauffman (<a href="#kauffman1993">Kauffman, 1993</a>), and Albert-László Barabási (<a href="#barabasi2002">Barabási, 2002</a>)—brought mathematical clarity to patterns observed across systems ranging from gene regulation and metabolic networks to the Internet and human societies.</p>
+<p>Gell-Mann described complexity as a process of <em>adaptive information compression</em>. Kauffman’s work on Boolean networks and autocatalytic sets revealed mechanisms of self-organization. Barabási’s research showed that many real-world networks exhibit <strong>scale-free structure</strong> and <strong>power-law degree distributions</strong>, transforming our understanding of robustness, vulnerability, and influence in large-scale networks.</p>
+<p>Institutions such as the <strong>Santa Fe Institute</strong> (<a href="#waldrop1992">Waldrop, 1992</a>) helped formalize this emerging worldview by bringing together researchers across disciplines to study emergence, adaptation, scaling laws, and collective behavior. The outcome was more than a new research field; it was a <em>paradigm shift</em>: a synthesis of dynamical systems, statistical mechanics, information theory, and computation into a unified framework for understanding complex adaptive networks.</p>
+<p>Today, this framework shapes how we interpret electric power grids, social media ecosystems, neural circuits, and global markets. Each is a <em>system of systems</em>: a layered, dynamic network that organizes, adapts, and sometimes fails in ways that reveal deep structural similarities across physical, biological, and social domains.</p>
+<hr>
+<h1 id="references">References<a hidden class="anchor" aria-hidden="true" href="#references">#</a></h1>
+<hr>
+<h3 id="wiener-n-1948-cybernetics-or-control-and-communication-in-the-animal-and-the-machine-mit-press"><a id="wiener1948"></a>Wiener, N. (1948). <em>Cybernetics: or Control and Communication in the Animal and the Machine</em>. MIT Press.<a hidden class="anchor" aria-hidden="true" href="#wiener-n-1948-cybernetics-or-control-and-communication-in-the-animal-and-the-machine-mit-press">#</a></h3>
+<p><a href="https://mitpress.mit.edu/">https://mitpress.mit.edu/</a></p>
+<h3 id="shannon-c-1948-a-mathematical-theory-of-communication-bell-system-technical-journal"><a id="shannon1948"></a>Shannon, C. (1948). <em>A Mathematical Theory of Communication</em>. Bell System Technical Journal.<a hidden class="anchor" aria-hidden="true" href="#shannon-c-1948-a-mathematical-theory-of-communication-bell-system-technical-journal">#</a></h3>
+<p><a href="https://doi.org/10.1002/j.1538-7305.1948.tb00917.x">https://doi.org/10.1002/j.1538-7305.1948.tb00917.x</a></p>
+<h3 id="von-bertalanffy-l-1968-general-system-theory-george-braziller"><a id="bertalanffy1968"></a>von Bertalanffy, L. (1968). <em>General System Theory</em>. George Braziller.<a hidden class="anchor" aria-hidden="true" href="#von-bertalanffy-l-1968-general-system-theory-george-braziller">#</a></h3>
+<p><a href="https://www.worldcat.org/title/255493">https://www.worldcat.org/title/255493</a></p>
+<h3 id="odum-e-1969-the-strategy-of-ecosystem-development-science"><a id="odum1969"></a>Odum, E. (1969). <em>The Strategy of Ecosystem Development</em>. Science.<a hidden class="anchor" aria-hidden="true" href="#odum-e-1969-the-strategy-of-ecosystem-development-science">#</a></h3>
+<p><a href="https://doi.org/10.1126/science.164.3877.262">https://doi.org/10.1126/science.164.3877.262</a></p>
+<h3 id="prigogine-i--nicolis-g-1977-self-organization-in-non-equilibrium-systems-wiley"><a id="prigogine1977"></a>Prigogine, I., &amp; Nicolis, G. (1977). <em>Self-Organization in Non-Equilibrium Systems</em>. Wiley.<a hidden class="anchor" aria-hidden="true" href="#prigogine-i--nicolis-g-1977-self-organization-in-non-equilibrium-systems-wiley">#</a></h3>
+<p><a href="https://www.wiley.com/">https://www.wiley.com/</a></p>
+<h3 id="prigogine-i--stengers-i-1984-order-out-of-chaos-bantam"><a id="prigogine1984"></a>Prigogine, I., &amp; Stengers, I. (1984). <em>Order Out of Chaos</em>. Bantam.<a hidden class="anchor" aria-hidden="true" href="#prigogine-i--stengers-i-1984-order-out-of-chaos-bantam">#</a></h3>
+<p><a href="https://www.penguinrandomhouse.com/">https://www.penguinrandomhouse.com/</a></p>
+<h3 id="von-foerster-h-1974-cybernetics-of-cybernetics-university-of-illinois"><a id="vonfoerster1974"></a>von Foerster, H. (1974). <em>Cybernetics of Cybernetics</em>. University of Illinois.<a hidden class="anchor" aria-hidden="true" href="#von-foerster-h-1974-cybernetics-of-cybernetics-university-of-illinois">#</a></h3>
+<p>(no reliable link)</p>
+<h3 id="gell-mann-m-1994-the-quark-and-the-jaguar-w-h-freeman"><a id="gellmann1994"></a>Gell-Mann, M. (1994). <em>The Quark and the Jaguar</em>. W. H. Freeman.<a hidden class="anchor" aria-hidden="true" href="#gell-mann-m-1994-the-quark-and-the-jaguar-w-h-freeman">#</a></h3>
+<p><a href="https://www.worldcat.org/title/29548329">https://www.worldcat.org/title/29548329</a></p>
+<h3 id="kauffman-s-1993-the-origins-of-order-oxford-university-press"><a id="kauffman1993"></a>Kauffman, S. (1993). <em>The Origins of Order</em>. Oxford University Press.<a hidden class="anchor" aria-hidden="true" href="#kauffman-s-1993-the-origins-of-order-oxford-university-press">#</a></h3>
+<p><a href="https://global.oup.com/">https://global.oup.com/</a></p>
+<h3 id="barabási-a-l-2002-linked-the-new-science-of-networks-perseus-books"><a id="barabasi2002"></a>Barabási, A.-L. (2002). <em>Linked: The New Science of Networks</em>. Perseus Books.<a hidden class="anchor" aria-hidden="true" href="#barabási-a-l-2002-linked-the-new-science-of-networks-perseus-books">#</a></h3>
+<p><a href="https://www.basicbooks.com/">https://www.basicbooks.com/</a></p>
+<h3 id="waldrop-m-1992-complexity-the-emerging-science-at-the-edge-of-order-and-chaos-simon--schuster"><a id="waldrop1992"></a>Waldrop, M. (1992). <em>Complexity: The Emerging Science at the Edge of Order and Chaos</em>. Simon &amp; Schuster.<a hidden class="anchor" aria-hidden="true" href="#waldrop-m-1992-complexity-the-emerging-science-at-the-edge-of-order-and-chaos-simon--schuster">#</a></h3>
+<p><a href="https://www.simonandschuster.com/">https://www.simonandschuster.com/</a></p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://monumental-choux-e78074.netlify.app/">Nima T. Bazargani</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sliding-Mode Control on Nima T. Bazargani</title>
+    <link>https://monumental-choux-e78074.netlify.app/tags/sliding-mode-control/</link>
+    <description>Recent content in Sliding-Mode Control on Nima T. Bazargani</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://monumental-choux-e78074.netlify.app/tags/sliding-mode-control/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtual Synchronous Generator for Frequency Response and Power Damping</title>
+      <link>https://monumental-choux-e78074.netlify.app/projects/project-7/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://monumental-choux-e78074.netlify.app/projects/project-7/</guid>
+      <description>&lt;p&gt;This project applies &lt;strong&gt;adaptive sliding-mode control&lt;/strong&gt; to virtual synchronous generators (VSGs) to improve microgrid frequency response and damping.&lt;/p&gt;
+&lt;h2 id=&#34;-problem&#34;&gt;▣ Problem&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Converter-dominated microgrids lack physical inertia&lt;/li&gt;
+&lt;li&gt;VSGs emulate synchronous behavior but need robust control&lt;/li&gt;
+&lt;li&gt;Frequency excursions and oscillations persist under disturbances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-approach&#34;&gt;▣ Approach&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Design an &lt;strong&gt;adaptive sliding-mode VSG controller&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Enhance frequency response and damping under varying conditions&lt;/li&gt;
+&lt;li&gt;Evaluate robustness against load changes and disturbances&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;-publication&#34;&gt;▣ Publication&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IEEE EPE (2018):&lt;/strong&gt;&lt;br&gt;
+&lt;a href=&#34;https://ieeexplore.ieee.org/document/8559616&#34;&gt;https://ieeexplore.ieee.org/document/8559616&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

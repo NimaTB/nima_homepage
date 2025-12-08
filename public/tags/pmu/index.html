@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="dark">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>PMU | Nima T. Bazargani</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="canonical" href="https://monumental-choux-e78074.netlify.app/tags/pmu/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.css" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://monumental-choux-e78074.netlify.app/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://monumental-choux-e78074.netlify.app/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://monumental-choux-e78074.netlify.app/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://monumental-choux-e78074.netlify.app/apple-touch-icon.png">
+<link rel="mask-icon" href="https://monumental-choux-e78074.netlify.app/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://monumental-choux-e78074.netlify.app/tags/pmu/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="https://monumental-choux-e78074.netlify.app/tags/pmu/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript><meta property="og:url" content="https://monumental-choux-e78074.netlify.app/tags/pmu/">
+  <meta property="og:site_name" content="Nima T. Bazargani">
+  <meta property="og:title" content="PMU">
+  <meta property="og:locale" content="en-us">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="PMU">
+<meta name="twitter:description" content="">
+
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://monumental-choux-e78074.netlify.app/" accesskey="h" title="Nima T. Bazargani (Alt + H)">Nima T. Bazargani</a>
+            <div class="logo-switches">
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/about/" title="about">
+                    <span>about</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/research/" title="research">
+                    <span>research</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/projects/" title="projects">
+                    <span>projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/posts/" title="blog">
+                    <span>blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/cv/" title="cv">
+                    <span>cv</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://monumental-choux-e78074.netlify.app/contact/" title="contact">
+                    <span>contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="https://monumental-choux-e78074.netlify.app/">Home</a>&nbsp;»&nbsp;<a href="https://monumental-choux-e78074.netlify.app/tags/">Tags</a></div>
+  <h1>
+    PMU
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Semi-Supervised Event Identification for Power Systems
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This project introduces a semi-supervised learning framework for classifying disturbance events using high-dimensional PMU data when labels are sparse. Real power-system PMU archives contain thousands of unlabeled snapshots and only a limited number of trusted labeled events.
+▣ Problem PMU archives contain very limited labeled data, making supervised training unreliable Grid conditions shift across time, seasons, and topology changes Physics-based features alone cannot fully capture dynamic variability ▣ Approach Combine spectral/modal signatures with learned temporal embeddings Apply self-training, pseudo-label refinement, and consistency constraints Leverage small labeled sets to guide structure in large unlabeled PMU corpora ▣ Validation Strong generalization under low-label regimes Robust identification across multiple utilities and operating conditions Outperforms traditional supervised PMU classifiers in label-scarce settings ▣ Publication arXiv preprint (2024):
+https://arxiv.org/abs/2309.10095
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-09-01 00:00:00 +0000 UTC'>September 1, 2024</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to Semi-Supervised Event Identification for Power Systems" href="https://monumental-choux-e78074.netlify.app/projects/project-1/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Event Identification via Modal &amp; Spectral Analysis of PMU Data
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This project develops a real-time event identification framework using modal and spectral features extracted from wide-area PMU streams.
+▣ Problem PMUs produce extremely high-dimensional, high-rate data Operators need rapid recognition of line trips, generator outages, and oscillations SCADA-level alarms do not capture modal characteristics ▣ Approach Extract modal features (frequency, damping, mode shapes) Build a high-dimensional spectral–temporal representation Apply feature selection (LASSO, MI ranking) Train logistic regression and SVM classifiers ▣ Validation Texas 2000-bus synthetic grid Real utility dataset with ≈500 PMUs Strong accuracy and robustness across conditions ▣ Publication IEEE Transactions on Power Systems (2022):
+https://ieeexplore.ieee.org/document/9911774
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-10-01 00:00:00 +0000 UTC'>October 1, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to Event Identification via Modal & Spectral Analysis of PMU Data" href="https://monumental-choux-e78074.netlify.app/projects/project-3/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Forced Oscillation Localization via Complex-LASSO
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>This project develops a Complex-LASSO framework for identifying the sources of forced oscillations (FOs) in wide-area power systems.
+▣ Problem Forced oscillations degrade stability and can spread across large systems Source location is often unknown and difficult to estimate PMU measurements are noisy and distributed ▣ Approach Represent unknown FO inputs as sums of sinusoids in the frequency domain Estimate candidate frequencies via empirical spectrum analysis Formulate and solve a complex-valued ℓ₁-regularized least-squares problem Use coordinate descent for efficient optimization ▣ Validation IEEE 68-bus and WECC 179-bus systems Correctly identifies FO locations and amplitudes Scalable to multiple sources and noisy measurements ▣ Publication IEEE PES General Meeting (2022):
+https://ieeexplore.ieee.org/document/9916993
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2022-07-01 00:00:00 +0000 UTC'>July 1, 2022</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to Forced Oscillation Localization via Complex-LASSO" href="https://monumental-choux-e78074.netlify.app/projects/project-4/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Event Identification Framework Based on PMU Modal Analysis
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>A poster contribution demonstrating the use of modal analysis and spectral PMU features for disturbance detection and classification.
+▣ Problem Wide-area events leave modal signatures that are not captured by traditional SCADA indicators.
+▣ Approach Extract modal dynamics from PMU windows Build feature embeddings for event classification Evaluate temporal stability of modal signatures ▣ Publication IEEE PES General Meeting Poster (2021)
+</p>
+  </div>
+  <footer class="entry-footer"><span title='2021-07-01 00:00:00 +0000 UTC'>July 1, 2021</span>&nbsp;·&nbsp;<span>1 min</span></footer>
+  <a class="entry-link" aria-label="post link to Event Identification Framework Based on PMU Modal Analysis" href="https://monumental-choux-e78074.netlify.app/projects/project-5/"></a>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="https://monumental-choux-e78074.netlify.app/">Nima T. Bazargani</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+</body>
+
+</html>
