@@ -40,8 +40,8 @@ title: "Home"
     </div>
     <!-- Photo (right) -->
     <div style="flex:0 0 170px; display:flex; justify-content:flex-end;">
-      <!-- NOTE: relative path so it works on GitHub project pages -->
-      <img src="images/nima.jpg"
+      <!-- Use root-relative path so it works on all pages -->
+      <img src="/images/nima.jpg"
            alt="Nima T. Bazargani"
            style="
              width:165px;
@@ -83,7 +83,6 @@ title: "Home"
   <hr>
 
   <!-- Navigation Buttons -->
-  <!-- IMPORTANT: relative links, no leading slash -->
   <div style="margin-top:1.6rem; text-align:center;">
     <a href="/about/" class="hero-btn primary" style="margin-right:0.6rem;">about</a>
     <a href="/research/" class="hero-btn secondary" style="margin-right:0.6rem;">research</a>

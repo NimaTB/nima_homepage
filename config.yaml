@@ -8,7 +8,7 @@ publishDir: "public"
 markup:
   goldmark:
     renderer:
-      unsafe: true
+      unsafe: true        # allow raw HTML in content
     extensions:
       typographer: false
 
@@ -26,10 +26,10 @@ params:
   ShowCodeCopyButtons: true
   disableScrollToTop: false
 
-  # Custom CSS – IMPORTANT: no leading slash, no "static/"
+  # Tell PaperMod to load your custom CSS from assets/css/extended/blank.css
   assets:
     customCSS:
-      - "css/extended/blank.css"
+      - css/extended/blank.css
 
   math: true
 
