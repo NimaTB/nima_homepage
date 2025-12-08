@@ -2,199 +2,199 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Nima T. Bazargani</title>
-    <link>https://monumental-choux-e78074.netlify.app/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Nima T. Bazargani</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://monumental-choux-e78074.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Event Identification</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/event-identification/</link>
+      <link>http://localhost:1313/tags/event-identification/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/event-identification/</guid>
+      <guid>http://localhost:1313/tags/event-identification/</guid>
       <description></description>
     </item>
     <item>
       <title>PMU</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/pmu/</link>
+      <link>http://localhost:1313/tags/pmu/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/pmu/</guid>
+      <guid>http://localhost:1313/tags/pmu/</guid>
       <description></description>
     </item>
     <item>
       <title>Semi-Supervised Learning</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/semi-supervised-learning/</link>
+      <link>http://localhost:1313/tags/semi-supervised-learning/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/semi-supervised-learning/</guid>
+      <guid>http://localhost:1313/tags/semi-supervised-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Time-Series</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/time-series/</link>
+      <link>http://localhost:1313/tags/time-series/</link>
       <pubDate>Sun, 01 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/time-series/</guid>
+      <guid>http://localhost:1313/tags/time-series/</guid>
       <description></description>
     </item>
     <item>
       <title>CCTA</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/ccta/</link>
+      <link>http://localhost:1313/tags/ccta/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/ccta/</guid>
+      <guid>http://localhost:1313/tags/ccta/</guid>
       <description></description>
     </item>
     <item>
       <title>Control</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/control/</link>
+      <link>http://localhost:1313/tags/control/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/control/</guid>
+      <guid>http://localhost:1313/tags/control/</guid>
       <description></description>
     </item>
     <item>
       <title>Dynamical Systems</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/dynamical-systems/</link>
+      <link>http://localhost:1313/tags/dynamical-systems/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/dynamical-systems/</guid>
+      <guid>http://localhost:1313/tags/dynamical-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Source Localization</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/source-localization/</link>
+      <link>http://localhost:1313/tags/source-localization/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/source-localization/</guid>
+      <guid>http://localhost:1313/tags/source-localization/</guid>
       <description></description>
     </item>
     <item>
       <title>System Identification</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/system-identification/</link>
+      <link>http://localhost:1313/tags/system-identification/</link>
       <pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/system-identification/</guid>
+      <guid>http://localhost:1313/tags/system-identification/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/machine-learning/</link>
+      <link>http://localhost:1313/tags/machine-learning/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/machine-learning/</guid>
+      <guid>http://localhost:1313/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Modal Analysis</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/modal-analysis/</link>
+      <link>http://localhost:1313/tags/modal-analysis/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/modal-analysis/</guid>
+      <guid>http://localhost:1313/tags/modal-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>Complex LASSO</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/complex-lasso/</link>
+      <link>http://localhost:1313/tags/complex-lasso/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/complex-lasso/</guid>
+      <guid>http://localhost:1313/tags/complex-lasso/</guid>
       <description></description>
     </item>
     <item>
       <title>Forced Oscillations</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/forced-oscillations/</link>
+      <link>http://localhost:1313/tags/forced-oscillations/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/forced-oscillations/</guid>
+      <guid>http://localhost:1313/tags/forced-oscillations/</guid>
       <description></description>
     </item>
     <item>
       <title>Oscillation Analysis</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/oscillation-analysis/</link>
+      <link>http://localhost:1313/tags/oscillation-analysis/</link>
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/oscillation-analysis/</guid>
+      <guid>http://localhost:1313/tags/oscillation-analysis/</guid>
       <description></description>
     </item>
     <item>
       <title>PES GM</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/pes-gm/</link>
+      <link>http://localhost:1313/tags/pes-gm/</link>
       <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/pes-gm/</guid>
+      <guid>http://localhost:1313/tags/pes-gm/</guid>
       <description></description>
     </item>
     <item>
       <title>Microgrids</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/microgrids/</link>
+      <link>http://localhost:1313/tags/microgrids/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/microgrids/</guid>
+      <guid>http://localhost:1313/tags/microgrids/</guid>
       <description></description>
     </item>
     <item>
       <title>Sliding-Mode Control</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/sliding-mode-control/</link>
+      <link>http://localhost:1313/tags/sliding-mode-control/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/sliding-mode-control/</guid>
+      <guid>http://localhost:1313/tags/sliding-mode-control/</guid>
       <description></description>
     </item>
     <item>
       <title>VSG</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/vsg/</link>
+      <link>http://localhost:1313/tags/vsg/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/vsg/</guid>
+      <guid>http://localhost:1313/tags/vsg/</guid>
       <description></description>
     </item>
     <item>
       <title>Distribution Systems</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/distribution-systems/</link>
+      <link>http://localhost:1313/tags/distribution-systems/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/distribution-systems/</guid>
+      <guid>http://localhost:1313/tags/distribution-systems/</guid>
       <description></description>
     </item>
     <item>
       <title>Extreme Events</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/extreme-events/</link>
+      <link>http://localhost:1313/tags/extreme-events/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/extreme-events/</guid>
+      <guid>http://localhost:1313/tags/extreme-events/</guid>
       <description></description>
     </item>
     <item>
       <title>Graph Theory</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/graph-theory/</link>
+      <link>http://localhost:1313/tags/graph-theory/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/graph-theory/</guid>
+      <guid>http://localhost:1313/tags/graph-theory/</guid>
       <description></description>
     </item>
     <item>
       <title>Hurricanes</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/hurricanes/</link>
+      <link>http://localhost:1313/tags/hurricanes/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/hurricanes/</guid>
+      <guid>http://localhost:1313/tags/hurricanes/</guid>
       <description></description>
     </item>
     <item>
       <title>Resilience</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/resilience/</link>
+      <link>http://localhost:1313/tags/resilience/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/resilience/</guid>
+      <guid>http://localhost:1313/tags/resilience/</guid>
       <description></description>
     </item>
     <item>
       <title>Uncertainty</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/uncertainty/</link>
+      <link>http://localhost:1313/tags/uncertainty/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/uncertainty/</guid>
+      <guid>http://localhost:1313/tags/uncertainty/</guid>
       <description></description>
     </item>
     <item>
       <title>Battery Storage</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/battery-storage/</link>
+      <link>http://localhost:1313/tags/battery-storage/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/battery-storage/</guid>
+      <guid>http://localhost:1313/tags/battery-storage/</guid>
       <description></description>
     </item>
     <item>
       <title>Multi-Objective</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/multi-objective/</link>
+      <link>http://localhost:1313/tags/multi-objective/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/multi-objective/</guid>
+      <guid>http://localhost:1313/tags/multi-objective/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>https://monumental-choux-e78074.netlify.app/tags/optimization/</link>
+      <link>http://localhost:1313/tags/optimization/</link>
       <pubDate>Sat, 01 Jul 2017 00:00:00 +0000</pubDate>
-      <guid>https://monumental-choux-e78074.netlify.app/tags/optimization/</guid>
+      <guid>http://localhost:1313/tags/optimization/</guid>
       <description></description>
     </item>
   </channel>
