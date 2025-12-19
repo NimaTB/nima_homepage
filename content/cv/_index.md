@@ -174,7 +174,7 @@ The following faculty members played a significant role in shaping my technical 
 
 - **<a href="https://encpe.sbu.ac.ir/en/~m_aghashabani" class="cv-link">Mohammad Hossein Aghashabani</a>** — Shahid Beheshti University  
 
-- **<a href="https://scholar.google.com/citations?user=Wg6ldcIAAAAJ&hl=en" class="cv-link">Mohammad Reza Aghamohammadi</a>** — K. N. Toosi University of Technology  
+- **<a href="https://scholar.google.com/citations?user=Wg6ldcIAAAAJ&hl=en" class="cv-link">Mohammad Reza Aghamohammadi</a>** — Shahid Beheshti University  
 
 - **<a href="https://wp.kntu.ac.ir/amraee/index.htm" class="cv-link">Touraj Amraee</a>** — K. N. Toosi University of Technology  
 
@@ -182,9 +182,9 @@ The following faculty members played a significant role in shaping my technical 
 
 - **<a href="https://ir.linkedin.com/in/alireza-fereidunian-6151748" class="cv-link">Alireza Fereidounian</a>** — K. N. Toosi University of Technology  
 
-- **<a href="https://encpe.sbu.ac.ir/~m_ghazizadeh/home" class="cv-link">Mohammad Sadegh Ghazi-Zadeh</a>** — K. N. Toosi University of Technology  
+- **<a href="https://encpe.sbu.ac.ir/~m_ghazizadeh/home" class="cv-link">Mohammad Sadegh Ghazi-Zadeh</a>** — Shahid Beheshti University  
 
-- **<a href="https://encpe.sbu.ac.ir/~gh_latif" class="cv-link">Gholam Reza Latif Shabgahi</a>** — K. N. Toosi University of Technology  
+- **<a href="https://encpe.sbu.ac.ir/~gh_latif" class="cv-link">Gholam Reza Latif Shabgahi</a>** — Shahid Beheshti University  
 
 - **<a href="https://encpe.sbu.ac.ir/en/~m_pourgholi" class="cv-link">Mahdi Pourgholi</a>** — Shahid Beheshti University  
 
