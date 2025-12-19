@@ -184,6 +184,8 @@ The following faculty members played a significant role in shaping my technical 
 
 - **<a href="https://encpe.sbu.ac.ir/~m_ghazizadeh/home" class="cv-link">Mohammad Sadegh Ghazi-Zadeh</a>** — Shahid Beheshti University  
 
+- **<a href="https://apac.ee.kntu.ac.ir/sedigh/" class="cv-link">Ali Khaki Sedigh</a>** — K. N. Toosi University of Technology  
+
 - **<a href="https://encpe.sbu.ac.ir/~gh_latif" class="cv-link">Gholam Reza Latif Shabgahi</a>** — Shahid Beheshti University  
 
 - **<a href="https://encpe.sbu.ac.ir/en/~m_pourgholi" class="cv-link">Mahdi Pourgholi</a>** — Shahid Beheshti University  
@@ -193,7 +195,6 @@ The following faculty members played a significant role in shaping my technical 
 - **<a href="https://encpe.sbu.ac.ir/en/~m_setayesh" class="cv-link">Mehrdad Setayesh Nazar</a>** — Shahid Beheshti University  
 
 - **<a href="https://www.salford.ac.uk/our-staff/vahid-vahidinasab" class="cv-link">Vahid Vahidinasab</a>** — University of Salford (Chair in Sustainability, Salford Business School; formerly Shahid Beheshti University)
-
 
 ### Abbreviations
 
