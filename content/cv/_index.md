@@ -198,14 +198,25 @@ The following faculty members played a significant role in shaping my technical 
 
 ### Abbreviations
 
+
 - **PMU** — Phasor Measurement Unit  
-- **WAMS** — Wide‑Area Monitoring System  
-- **SCUC** — Security‑Constrained Unit Commitment  
-- **SCED** — Security‑Constrained Economic Dispatch  
-- **MAML** — Model‑Agnostic Meta‑Learning  
+- **WAMS** — Wide-Area Monitoring System  
+- **SCUC** — Security-Constrained Unit Commitment  
+- **SCED** — Security-Constrained Economic Dispatch  
+- **MAML** — Model-Agnostic Meta-Learning  
 - **ISO** — Independent System Operator  
+- **RTO** — Regional Transmission Organization  
 - **FTR** — Financial Transmission Right  
+- **LMP** — Locational Marginal Price  
 - **FACTS** — Flexible AC Transmission Systems  
+- **BESS** — Battery Energy Storage System  
+- **TSO** — Transmission System Operator  
+- **DSO** — Distribution System Operator  
+- **ML** — Machine Learning  
+- **AI** — Artificial Intelligence  
+- **API** — Application Programming Interface  
+- **WAC** — Wide-Area Control  
+
 
 <br/>
 
