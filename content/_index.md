@@ -82,6 +82,9 @@ title: "Home"
 
   <hr>
 
+
+
+
   <!-- Navigation Buttons -->
   <div style="margin-top:1.6rem; text-align:center;">
     <a href="/about/" class="hero-btn primary" style="margin-right:0.6rem;">about</a>
@@ -91,5 +94,37 @@ title: "Home"
     <a href="/cv/" class="hero-btn primary" style="margin-right:0.6rem;">cv</a>
     <a href="/contact/" class="hero-btn ghost">contact</a>
   </div>
+
+
+<!-- Social / Contact Icons -->
+<div style="
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:26px;
+  margin:2.2rem auto 1.6rem auto;
+  flex-wrap:wrap;
+">
+  <a href="mailto:ntaghip1@asu.edu" aria-label="Email">
+    <img src="/images/email3.png" alt="Email"
+         style="height:40px; width:auto; opacity:0.9;">
+  </a>
+
+  <a href="https://github.com/nimatb" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+    <img src="/images/github.png" alt="GitHub"
+         style="height:40px; width:auto; opacity:0.9;">
+  </a>
+
+  <a href="https://x.com/nima_tbX" target="_blank" rel="noopener noreferrer" aria-label="X">
+    <img src="/images/x.png" alt="X"
+         style="height:40px; width:auto; opacity:0.9;">
+  </a>
+
+  <a href="https://scholar.google.com/citations?user=9WpOzJUAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">
+    <img src="/images/googlescholar.png" alt="Google Scholar"
+         style="height:40px; width:auto; opacity:0.9;">
+  </a>
+</div>
+
 
 </div>
