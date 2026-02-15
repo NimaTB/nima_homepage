@@ -1,4 +1,5 @@
-baseURL: "https://nimatbazargani.netlify.app/"
+#baseURL: "https://nimatbazargani.netlify.app/"
+baseURL: "https://nima-homepage.pages.dev/"
 languageCode: "en-us"
 title: "Nima T. Bazargani"
 theme: "PaperMod"
