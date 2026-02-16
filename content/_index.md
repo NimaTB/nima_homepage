@@ -105,7 +105,7 @@ title: "Home"
   margin:2.2rem auto 1.6rem auto;
   flex-wrap:wrap;
 ">
-  <a href="mailto:ntaghip1@asu.edu" aria-label="Email">
+  <a href="mailto:nima.t.bazargani@gmail.com" aria-label="Email">
     <img src="/images/email3.png" alt="Email"
          style="height:40px; width:auto; opacity:0.9;">
   </a>

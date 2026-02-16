@@ -7,9 +7,9 @@ If you would like to connect regarding **collaboration**, **research**, **consul
 
 <div style="display:flex; align-items:center; gap:28px; flex-wrap:wrap; margin-top:18px; margin-bottom:22px;">
 
-  <a href="mailto:ntaghip1@asu.edu" style="display:flex; align-items:center; text-decoration:none;">
+  <a href="mailto:nima.t.bazargani@gmail.com" style="display:flex; align-items:center; text-decoration:none;">
     <img src="/images/email3.png" alt="Email icon" style="height:22px; margin-right:8px;">
-    <span>ntaghip1@asu.edu</span>
+    <span>nima.t.bazargani@gmail.com</span>
   </a>
 
   <a href="https://github.com/nimatb" target="_blank" rel="noopener noreferrer" style="display:flex; align-items:center; text-decoration:none;">
