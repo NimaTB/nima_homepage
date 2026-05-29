@@ -32,7 +32,7 @@ hideMeta: true
 
 <br/>
 
-<a class="hero-btn primary" href="/cv/CV_Nima_T_Bazargani_public.pdf" target="_blank">
+<a class="hero-btn primary" href="/cv/nima-t-bazargani_cv.pdf" target="_blank">
 ⬇️ Download Full CV (PDF)
 </a>
 
