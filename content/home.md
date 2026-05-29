@@ -2,6 +2,8 @@
 title: "Home"
 ---
 
+
+
 <!-- Section with Background Image -->
 <div class="make_bg bg_home">
 
