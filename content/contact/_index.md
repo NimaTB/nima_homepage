@@ -17,10 +17,13 @@ If you would like to connect regarding **collaboration**, **research**, **consul
     <span>github.com/nimatb</span>
   </a>
 
-  <a href="https://x.com/nima_tbX" target="_blank" rel="noopener noreferrer" style="display:flex; align-items:center; text-decoration:none;">
-    <img src="/images/x.png" alt="X icon" style="height:22px; margin-right:8px;">
-    <span>@nima_tbX</span>
-  </a>
+[//]: # (  <a href="https://x.com/nima_tbX" target="_blank" rel="noopener noreferrer" style="display:flex; align-items:center; text-decoration:none;">)
+
+[//]: # (    <img src="/images/x.png" alt="X icon" style="height:22px; margin-right:8px;">)
+
+[//]: # (    <span>@nima_tbX</span>)
+
+[//]: # (  </a>)
 
 </div>
 
