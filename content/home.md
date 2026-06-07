@@ -37,7 +37,7 @@ title: "Home"
         Electrical engineer specializing in power systems and AI-driven analytics. I create models,
         pipelines, and algorithms to enhance grid observability, interpret dynamic behaviors, and
         support reliable operations under uncertainty. My research integrates graph theory with
-        machine learning to model cyber-physical-economic systems.
+        machine learning to model cyber-physical systems.
       </p>
     </div>
     <!-- Photo (right) -->
@@ -77,7 +77,7 @@ title: "Home"
     <li>
       <span style="font-size:1.25rem;">🕸</span>
       <strong>Networked Dynamical Systems:</strong>
-      multi-layer representations of physical–cyber–market infrastructures, graph-theoretic
+      multi-layer representations of cyber-physical infrastructures, graph-theoretic
       flow and sensitivity analysis, and the study of resilience and interdependent system behavior.
     </li>
   </ul>
